@@ -24,6 +24,7 @@ public class Navigation extends base {
 	public void initialize() throws IOException {
 		driver = initializingDriver();
 		driver.get(prop.getProperty("url"));
+		System.out.println("Testing GIT");
 	}
 
 	@Test
