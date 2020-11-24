@@ -39,6 +39,15 @@ public class Navigation extends base {
 		Assert.assertTrue(l.GetNavDetails().isDisplayed());
 
 	}
+	
+	@Test
+	public void baseNavigation2dummy() throws IOException {
+		LandingPage l = new LandingPage(driver);
+		log.info("checking whether element is avaiable or not");
+		log.info("Sucessfully click on Login button");
+		Assert.assertTrue(l.GetNavDetails().isDisplayed());
+
+	}
 
 	@AfterTest
 	public void teardown() {

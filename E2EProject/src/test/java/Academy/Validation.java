@@ -31,12 +31,14 @@ public class Validation extends base {
 		LandingPage l = new LandingPage(driver);
 		log.info("getting Object name");
 		Assert.assertEquals(l.getTitle().getText(), "FEATURED COURSES123");
+		System.out.println("dummy");
 
 	}
 
 	@AfterTest
 	public void teardown() {
 		driver.close();
+		
 	}
 
 }

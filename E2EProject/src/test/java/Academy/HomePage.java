@@ -27,6 +27,7 @@ public class HomePage extends base {
 		log.info("Navigated to Home page");
 		l.getLogin().click();
 		log.info("Sucessfully click on Login button");
+		log.info("Sucessfully click on Login button");
 	}
 
 	@Test(dataProvider = "getData")
