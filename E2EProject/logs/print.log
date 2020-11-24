@@ -1,0 +1,4 @@
+00:39:41.665 [TestNG-tests-3] INFO  resources.base - Sucessfull click on login button 
+00:39:41.684 [TestNG-tests-3] INFO  resources.base - Invalid ID
+00:39:42.319 [TestNG-tests-3] INFO  resources.base - Sucessfull click on login button 
+00:39:42.319 [TestNG-tests-3] INFO  resources.base - Valid ID
