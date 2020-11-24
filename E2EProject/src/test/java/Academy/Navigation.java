@@ -30,6 +30,7 @@ public class Navigation extends base {
 			System.out.println(i);
 		}
 		System.out.println("testing 2");
+		System.out.println("testing 3");
 	}
 
 	@Test
