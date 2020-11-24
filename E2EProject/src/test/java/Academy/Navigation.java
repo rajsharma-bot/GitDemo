@@ -25,6 +25,11 @@ public class Navigation extends base {
 		driver = initializingDriver();
 		driver.get(prop.getProperty("url"));
 		System.out.println("Testing GIT");
+		for(int i=0;i<5;i++)
+		{
+			System.out.println(i);
+		}
+		System.out.println("testing 2");
 	}
 
 	@Test
